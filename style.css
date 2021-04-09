@@ -1,0 +1,71 @@
+body,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  width: 20%;
+  margin-left: auto;
+  padding: 2em;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+.sign-button {
+  background-color: rgb(36, 36, 221);
+  color: white;
+  font-size: 13px;
+  cursor: pointer;
+}
+nav img {
+  height: 20px;
+}
+main {
+  width: 50%;
+  margin: 5em auto;
+  text-align: center;
+}
+input {
+  width: 80%;
+  padding: 1em;
+  border-radius: 50px;
+  border: 1px solid grey;
+}
+.buttons-container {
+  margin-top: 1em;
+  padding: 1em;
+  border: none;
+  cursor: pointer;
+}
+.buttons-container button {
+  padding: 1em;
+  margin: 1em;
+  border: none;
+  font: bold;
+  cursor: pointer;
+}
+footer {
+  background-color: rgb(240, 235, 235);
+}
+.footer-top {
+  padding: 1em;
+}
+.footer-bottom {
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid black;
+}
+.left a {
+  margin-right: 1em;
+}
+.right a {
+  margin-right: 1em;
+}
